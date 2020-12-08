@@ -1,8 +1,5 @@
-linesList = ["dog","dae","de"]
-allLines = "dogdaede"
-lettersList=["d"]
-counter = 0
+line =['nop +0\n', 'acc +1\n', 'jmp +4\n', 'acc +3\n', 'jmp -3\n', 'acc -99\n', 'acc +1\n', 'jmp -4\n', 'acc +6']
 
-for x in lettersList:
-    if allLines.count(x) == len(linesList):
-        print('yes')
+
+
+print(line[1:])
